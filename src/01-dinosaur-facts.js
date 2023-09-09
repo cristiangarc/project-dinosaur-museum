@@ -5,7 +5,7 @@
 
   Keep in mind that your functions must still have and use a parameter for accepting all dinosaurs.
 */
-const exampleDinosaurData = require("../data/dinosaurs");
+const exampleDinosaurData = require('../data/dinosaurs');
 // Do not change the line above.
 
 /**
@@ -49,7 +49,7 @@ function getDinosaurDescription(dinosaurs, id) {}
 /**
  * getDinosaursAliveMya()
  * ---------------------
- * Returns an array of dinosaurs who were alive at the given `mya` (i.e. "millions of years ago") value. If a `key` is provided, returns the value of that key for each dinosaur alive at that time. Otherwise, returns the ID.
+ * Returns an array of dinosaurs who were alive at the given `mya` (i.e. "millions of years ago") value. If a `key` argument is provided when the function is called, returns the value of that key for each dinosaur alive at that time. Otherwise, returns the ID.
  *
  * If the dinosaur only has a single value for `mya`, allows for the `mya` value to be equal to the given value or one less. For example, if a dinosaur has a `mya` value of `[29]`, the dinosaur's information will be returned if `29` is entered or `28` is entered.
  *
@@ -76,5 +76,5 @@ function getDinosaursAliveMya(dinosaurs, mya, key) {}
 module.exports = {
   getLongestDinosaur,
   getDinosaurDescription,
-  getDinosaursAliveMya,
+  getDinosaursAliveMya
 };
