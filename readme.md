@@ -4,7 +4,7 @@ The _Dinosaur Museum_ is opening! You've been tasked with building some challeng
 
 To complete this project, you will need to write several difficult functions that will support attendees in finding out information about dinosaurs, finding the dinosaur's location, and calculating their entry fees.
 
-This is the first major project of the course. Please read carefully through the instructions and rubric below.
+Please read carefully through the instructions and rubric below.
 
 ## Project scoring
 
